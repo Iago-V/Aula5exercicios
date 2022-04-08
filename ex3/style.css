@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("img3/aurora-boreal-marco-brotto-fotos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Grape Nuts', cursive;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    width: 500px;
+    margin: 250px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15) ;
+}
+.box-form{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+}
+label{
+    margin-right: 12px;
+    font-size: 15pt;
+}
+.title{
+    text-align: center;
+}
+
+.esquecimento{
+    font-size: 11pt;
+    text-align: right;
+}
+form{
+  
+    flex-direction: column;
+    width: 100%;
+    text-align:center;
+}
+button{
+    font-family: 'Grape Nuts', cursive;
+    font-weight: 700;
+    height: 30px;
+    width: 60px;
+    border-radius: 50%;
+    border:none;
+    background-color: rgb(191, 255, 128);
+}
+
+button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}

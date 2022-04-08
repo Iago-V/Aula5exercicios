@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: antiquewhite;
+}
+@keyframes slideIn {
+    0%{
+        transform: translate(0px, -500px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+
+main{
+    margin: 0 auto;     
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: #fff;
+    font-size: 10pt;
+    height: auto; /*700px*/
+    border-radius: 20px;
+    animation: 1s ease-out 0s 1 slideIn;
+}
+
+.cafe{
+    width: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.box-titulo{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+.distancia{
+    display: flex ;
+    align-items: center;
+}
+.distancia img{
+    width: 20px;
+    height: 20px;
+}
+
+.stars{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.stars img{
+    width: 75px;
+}
+
+.stars p{
+    margin: 0;
+    margin-left: 15px;
+}
+hr{
+    width: 90%;
+}
+
+.horario{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.horario img{
+    width: 32px;
+    height: 32px;
+}
+
+.horario p{
+    margin: 0;
+
+}
+
+.funcionamento{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+button{
+background-color: #fff;
+border: none;
+color: chocolate;
+font-weight: 700;
+font-size: 15pt;
+margin-bottom: 20px;
+transition: 500ms;
+
+}
+button:hover{
+   color: brown;
+   cursor: pointer;
+}
